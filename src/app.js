@@ -8,7 +8,7 @@ const studentRouter = require("./routers/student");
 const serverless = require("serverless-http");
 
 app.use(express.json());
-app.use(`/.netlify/functions/api`, studentRouter);
+app.use(`/.netlify/functions/api/`, studentRouter);
 // app.use(router);
 
 app.listen(port, () => {
