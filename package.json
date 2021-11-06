@@ -15,5 +15,8 @@
     "express": "^4.17.1",
     "mongoose": "^6.0.12",
     "validator": "^13.6.0"
+  },
+  "engines": {
+    "node": "16.11.0"
   }
 }
