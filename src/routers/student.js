@@ -6,6 +6,10 @@ router.get("/", (req, res) => {
   res.send("Hello This is a API");
 });
 
+router.get("/zero", (req, res) => {
+  res.send("Hello This is zero");
+});
+
 // Create users
 router.post("/students", async (req, res) => {
   try {
